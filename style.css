@@ -5,8 +5,6 @@
   --light: #fff;
   --text-light: #e0e0e0;
   --text-muted: #cccccc;
-  --whatsapp: #25d366;
-  --whatsapp-hover: #1ebd5c;
   --border-radius: 8px;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
@@ -23,6 +21,7 @@ body {
   height: 100%;
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 .container {
@@ -67,7 +66,6 @@ body {
   text-align: center;
 }
 
-
 .hero .sub {
   font-size: 1rem;
   color: var(--text-muted);
@@ -103,7 +101,7 @@ body {
 .tarja-img {
   position: absolute;
   bottom: 20px;
-  right: -20px;
+  right: 0;
   width: 250px;
   max-width: 250px;
   height: auto;
@@ -289,12 +287,12 @@ button:hover {
     width: 135px;
     max-width: 135px;
     bottom: 11px;
-    right: -28px;
+    right: 0;
   }
 
   .tarja-text {
     bottom: 28px;
-    right: 5px;
+    right: 10px;
     font-size: 12px;
   }
 
